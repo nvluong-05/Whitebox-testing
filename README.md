@@ -80,16 +80,6 @@ test được gắn `@Tag("valid")` (luồng hợp lệ) hoặc `@Tag("edge-erro
 (biên / lỗi / ngoại lệ) để tách thành 2 issue theo yêu cầu đề bài — xem
 `TESTCASES.md` để biết chi tiết từng test case và nhánh mà nó phủ.
 
-## 5. Các bước nộp bài lên GitHub
-
-```bash
-git init
-git add .
-git commit -m "Bai thuc hanh 04: 8 chuong trinh Java + JUnit test (white-box)"
-git branch -M main
-git remote add origin https://github.com/<ten-tai-khoan>/<ten-repo>.git
-git push -u origin main
-```
 
 Sau đó, trên trang GitHub của repo:
 
