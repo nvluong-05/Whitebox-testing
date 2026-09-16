@@ -1,0 +1,67 @@
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+╷
+├─ JUnit Platform Suite ✔
+├─ JUnit Jupiter ✔
+│  └─ FunctionsTest ✔
+│     ├─ Bài 8 - Tổng giai thừa ✔
+│     │  ├─ Lỗi: n < 1 phải ném ngoại lệ ✔
+│     │  ├─ Tổng giai thừa hợp lệ ✔
+│     │  ├─ Biên: n = 1 (vòng lặp chạy đúng 1 lần) ✔
+│     │  ├─ Giai thừa hợp lệ ✔
+│     │  └─ Lỗi: giai thừa của số âm phải ném ngoại lệ ✔
+│     ├─ Bài 7 - Ước chung lớn nhất ✔
+│     │  ├─ Lỗi: cả hai số đều bằng 0 phải ném ngoại lệ ✔
+│     │  ├─ Biên: một số bằng 0 ✔
+│     │  ├─ Biên: số âm (lấy trị tuyệt đối) ✔
+│     │  └─ UCLN của hai số hợp lệ ✔
+│     ├─ Bài 6 - Tổng đan dấu ✔
+│     │  ├─ Biên: n = 1 (vòng lặp chạy đúng 1 lần) ✔
+│     │  ├─ n lẻ ✔
+│     │  ├─ n chẵn ✔
+│     │  └─ Lỗi: n < 1 phải ném ngoại lệ ✔
+│     ├─ Bài 5 - Kiểm tra số nguyên tố ✔
+│     │  ├─ Hợp số hợp lệ ✔
+│     │  ├─ Biên: n < 2 không phải số nguyên tố ✔
+│     │  ├─ Số nguyên tố hợp lệ ✔
+│     │  └─ Biên: số chẵn > 2 không phải số nguyên tố ✔
+│     ├─ Bài 4 - Số ngày của một tháng ✔
+│     │  ├─ Tháng 2 năm nhuận: 29 ngày ✔
+│     │  ├─ Kiểm tra hàm năm nhuận độc lập ✔
+│     │  ├─ Tháng có 30 ngày ✔
+│     │  ├─ Tháng có 31 ngày ✔
+│     │  ├─ Tháng 2 năm không nhuận: 28 ngày ✔
+│     │  └─ Tháng ngoài khoảng [1,12] phải ném ngoại lệ ✔
+│     ├─ Bài 3 - Giải phương trình bậc 2 ✔
+│     │  ├─ a = 0, b = 0, c = 0: vô số nghiệm ✔
+│     │  ├─ a = 0, b != 0: phương trình bậc 1 ✔
+│     │  ├─ Delta > 0: hai nghiệm phân biệt ✔
+│     │  ├─ Delta = 0: nghiệm kép ✔
+│     │  ├─ Delta < 0: vô nghiệm ✔
+│     │  └─ a = 0, b = 0, c != 0: vô nghiệm ✔
+│     ├─ Bài 2 - Diện tích hình chữ nhật ✔
+│     │  ├─ Dài <= 0 phải ném ngoại lệ ✔
+│     │  ├─ Diện tích với kích thước hợp lệ ✔
+│     │  └─ Rộng <= 0 phải ném ngoại lệ ✔
+│     └─ Bài 1 - Chu vi hình chữ nhật ✔
+│        ├─ Chu vi với kích thước hợp lệ (số nguyên) ✔
+│        ├─ Dài <= 0 phải ném ngoại lệ ✔
+│        ├─ Chu vi với kích thước hợp lệ (số thập phân) ✔
+│        └─ Rộng <= 0 phải ném ngoại lệ ✔
+└─ JUnit Vintage ✔
+
+Test run finished after 209 ms
+[        12 containers found      ]
+[         0 containers skipped    ]
+[        12 containers started    ]
+[         0 containers aborted    ]
+[        12 containers successful ]
+[         0 containers failed     ]
+[        36 tests found           ]
+[         0 tests skipped         ]
+[        36 tests started         ]
+[         0 tests aborted         ]
+[        36 tests successful      ]
+[         0 tests failed          ]
+
